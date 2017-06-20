@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.esthefanielanza.task1.MainActivity">
+
+    <TextView
+        style="@style/Text"
+        android:id="@+id/Title"
+        android:text="@string/Title" />
+
+    <Button
+        style="@style/Button"
+        android:id="@+id/activityButton1"
+        android:layout_below="@id/Title"
+        android:text="@string/activityText1" />
+
+    <Button
+        style="@style/Button"
+        android:id="@+id/activityButton2"
+        android:layout_below="@id/activityButton1"
+        android:text="@string/activityText2" />
+
+
+</RelativeLayout>
